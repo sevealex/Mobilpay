@@ -11,6 +11,12 @@ namespace SeveAlex\MobilPay;
  * In order to use the OpenSSL functions you need to install the OpenSSL package.
  * See PHP documentation for installing OpenSSL package
  */
+use stdClass;
+use DOMElement;
+use DOMDocument;
+use DOMNode;
+use Exception;
+
 class Mobilpay_Payment_Request
 {
 	const PAYMENT_TYPE_SMS	= 0x01;

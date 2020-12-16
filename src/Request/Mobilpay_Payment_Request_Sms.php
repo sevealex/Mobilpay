@@ -8,6 +8,12 @@ namespace SeveAlex\MobilPay\Request;
  * @version 1.0
  * 
  */
+use stdClass;
+use DOMElement;
+use DOMDocument;
+use DOMNode;
+use Exception;
+
 class Mobilpay_Payment_Request_Sms extends Mobilpay_Payment_Request_Abstract  
 {
 	const ERROR_LOAD_FROM_XML_SERVICE_ELEM_MISSING		= 0x31000001;

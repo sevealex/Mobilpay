@@ -7,6 +7,9 @@ namespace SeveAlex\MobilPay\Invoice;
  * @version 1.0
  * 
  */
+use Exception;
+use DOMNode;
+
 class Mobilpay_Payment_Invoice_Item
 {
 	const ERROR_INVALID_PARAMETER			= 0x11111001;

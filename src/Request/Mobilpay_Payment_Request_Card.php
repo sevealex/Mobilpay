@@ -13,6 +13,12 @@ namespace SeveAlex\MobilPay\Request;
 
 use SeveAlex\MobilPay\Mobilpay_Payment_Invoice;
 
+use stdClass;
+use DOMElement;
+use DOMDocument;
+use DOMNode;
+use Exception;
+
 class Mobilpay_Payment_Request_Card extends Mobilpay_Payment_Request_Abstract {
 
     /**

@@ -10,6 +10,11 @@ namespace SeveAlex\MobilPay;
  *
  * a mobilpay payment object used for holding card recurrence information
  */
+use stdClass;
+use DOMElement;
+use DOMDocument;
+use DOMNode;
+use Exception;
 class Mobilpay_Payment_Split {
 
     /**

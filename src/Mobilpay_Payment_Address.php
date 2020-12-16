@@ -8,6 +8,11 @@ namespace SeveAlex\MobilPay;
  * @version 1.0
  * 
  */
+use stdClass;
+use DOMElement;
+use DOMDocument;
+use DOMNode;
+use Exception;
 
 class Mobilpay_Payment_Address
 {

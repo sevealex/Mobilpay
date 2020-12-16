@@ -9,6 +9,13 @@ namespace SeveAlex\MobilPay\Request;
  * @version 1.0
  *
  */
+use SeveAlex\MobilPay\Mobilpay_Payment_Address;
+use stdClass;
+use DOMElement;
+use DOMDocument;
+use DOMNode;
+use Exception;
+
 class Mobilpay_Payment_Request_Notify
 {
     const ERROR_LOAD_FROM_XML_CRC_ATTR_MISSING = 0x60000001;

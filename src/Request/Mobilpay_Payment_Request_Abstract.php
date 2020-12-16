@@ -11,6 +11,11 @@ namespace SeveAlex\MobilPay\Request;
  * In order to use the OpenSSL functions you need to install the OpenSSL package.
  * Check PHP documentation for installing OpenSSL package
  */
+use stdClass;
+use DOMElement;
+use DOMDocument;
+use DOMNode;
+use Exception;
 
 abstract class Mobilpay_Payment_Request_Abstract
 {
