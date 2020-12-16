@@ -1,0 +1,28 @@
+{
+    "name": "sevealex/mobilpay",
+    "description": "mobilpay split",
+    "version": "1.0.0",
+    "keywords": [
+        "sevealex",
+        "laravel",
+        "lumen",
+        "mobilpay",
+        "mobilpay split",
+        "payments"
+    ],
+    "homepage": "https://github.com/sevealex/Mobilpay",
+    "type": "library",
+    "license": "MIT",
+    "authors": [{
+        "name": "mobilpay",
+        "email": "lorem@example.com",
+        "role": "Developer"
+    }],
+    "autoload": {
+        "psr-4": {
+            "SeveAlex\\MobilPay\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {}
+}
