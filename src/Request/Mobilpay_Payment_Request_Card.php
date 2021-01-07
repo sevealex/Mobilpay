@@ -12,6 +12,7 @@ namespace SeveAlex\MobilPay\Request;
  */
 
 use SeveAlex\MobilPay\Mobilpay_Payment_Invoice;
+use SeveAlex\MobilPay\Mobilpay_Payment_Split;
 
 use stdClass;
 use DOMElement;
